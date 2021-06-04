@@ -1,0 +1,82 @@
+.body {
+  font-family: "Nunito", sans-serif;
+  top: 4.5%;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url("../../../assets/img/bg-opacity.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.text-image {
+  height: auto;
+  width: auto;
+  margin-top: 25%;
+}
+
+.text-image > h1 {
+  font-size: 55px;
+  line-height: 1;
+  color: white;
+  padding: 50px;
+  font-weight: 200;
+}
+
+.second-div {
+  background-color: #35959c;
+  position: absolute;
+  height: 80%;
+  width: 100vw;
+}
+
+.second-div > h1 {
+  font-size: 55px;
+  font-weight: 200;
+  line-height: 1;
+  color: white;
+  opacity: 100%;
+  padding: 50px;
+}
+
+.div-protecao {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  height: 50%;
+  margin: auto;
+}
+
+.div-prot-1 {
+  flex: 1;
+  background-color: white;
+  height: 60vh;
+  text-align: justify;
+}
+
+.div-prot-2 {
+  background-color: white;
+  flex: 1;
+  height: 60vh;
+  text-align: justify;
+}
+.div-prot-3 {
+  background-color: white;
+  flex: 1;
+  height: 60vh;
+  text-align: justify;
+}
+.justify-p {
+  margin: 5px;
+}
+.menino {
+  width: 100%;
+}
+/* Responsive Styles */
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+}

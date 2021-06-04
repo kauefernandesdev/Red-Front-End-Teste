@@ -1,0 +1,43 @@
+p {
+  margin-top: 6px;
+  padding-right: 10px;
+}
+
+.material-icons-outlined {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.toolbar {
+  font-family: "Nunito", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  color: white;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+}
+
+.t1 {
+  height: 40px;
+  flex: 1;
+  background-color: #42b9a8;
+}
+.items {
+  display: flex;
+  float: right;
+}
+
+.items2 {
+  display: flex;
+  justify-content: center;
+}
+
+.t2 {
+  height: 40px;
+  flex: 2;
+  background-color: #1566a4;
+}
