@@ -10,8 +10,31 @@
   background-repeat: no-repeat;
   position: absolute;
 }
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.saiba-mais {
+  margin-top: 15px;
+}
+
+#saiba-mais {
+  vertical-align: middle;
+}
+
 .text-image {
-  height: auto;
+  height: 64%;
   width: auto;
   margin-top: 25%;
 }
@@ -26,7 +49,7 @@
 
 .second-div {
   background-color: #35959c;
-  position: absolute;
+  margin-top: -30px;
   height: 80%;
   width: 100vw;
 }
@@ -49,23 +72,52 @@
   margin: auto;
 }
 
+.div-protecao:hover {
+  cursor: pointer;
+}
+
+.prot-h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.spacing {
+  margin: 25px;
+}
+
 .div-prot-1 {
   flex: 1;
   background-color: white;
-  height: 60vh;
+  height: 49vh;
   text-align: justify;
 }
 
+.div-prot-1:hover {
+  background-color: #1d4885;
+  color: white;
+}
+
+.div-prot-2:hover {
+  background-color: #1d4885;
+  color: white;
+}
+.div-prot-3:hover {
+  background-color: #1d4885;
+  color: white;
+}
+
 .div-prot-2 {
+  height: 49vh;
   background-color: white;
   flex: 1;
-  height: 60vh;
+
   text-align: justify;
 }
 .div-prot-3 {
+  height: 49vh;
   background-color: white;
   flex: 1;
-  height: 60vh;
+
   text-align: justify;
 }
 .justify-p {
@@ -74,6 +126,109 @@
 .menino {
   width: 100%;
 }
+
+.terceira-div {
+  color: #2a7292;
+  padding: 50px;
+  font-weight: 100;
+  font-size: 45px;
+}
+
+.div-dados {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+
+.especialista-div {
+  margin-top: 60px;
+  background-image: url("../../../assets/img/cat-bg.png");
+  height: 40vh;
+  width: 99vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+
+.especialista-div > div {
+  margin-left: 50%;
+  color: white;
+  line-height: 0.8;
+  font-family: "Nunito", sans-serif;
+}
+
+.p1 {
+  font-size: 50px;
+  text-align: right;
+}
+.p2 {
+  margin-top: -30px;
+  text-align: right;
+}
+.btn-esp {
+  font-family: "Nunito", sans-serif;
+  border-radius: 20px;
+  background-color: teal;
+  border: none;
+  color: white;
+  margin-left: 60%;
+  height: 40px;
+  cursor: pointer;
+}
+.btn-esp:hover {
+  background-color: #2a7292;
+}
+
+.quarta-div {
+  color: #2a7292;
+  padding: 50px;
+  font-weight: 100;
+  font-size: 45px;
+}
+
+.div-qualidades {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.qualidades {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  background-image: url("../../../assets/img/cat-bg-brown.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  width: 60vw;
+  height: 40vh;
+  color: white;
+}
+
+.qualidades > p {
+  margin-top: 130%;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.qualidades:hover {
+  background-image: url("../../../assets/img/cat-bg.png");
+  cursor: pointer;
+}
+
+.quinta-div {
+  margin-top: 15%;
+  background-color: #35959c;
+  font-size: 45px;
+  font-weight: 200;
+  line-height: 1;
+  color: white;
+}
+
+.p-quinta {
+}
+
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
 }
